@@ -32,15 +32,15 @@ public class enemy_fly : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, objetive.position, speed * Time.deltaTime); 
         }
 
-        if (distance > 0) 
-        {
-            transform.localScale = new Vector3(1, 1, 1); 
-        }
+        //if (distance > 0) 
+        //{
+        //    transform.localScale = new Vector3(1, 1, 1); 
+        //}
 
-        if (distance < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1); 
-        }
+        //if (distance < 0)
+        //{
+        //    transform.localScale = new Vector3(-1, 1, 1); 
+        //}
 
         if (distanceAbsolut < 5)
         {

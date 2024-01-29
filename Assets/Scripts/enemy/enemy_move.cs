@@ -26,12 +26,12 @@ public class enemy_move : MonoBehaviour
         if (isRight == true)
         {
             transform.position += Vector3.right * speed * Time.deltaTime; 
-            transform.localScale = new Vector3 (-1, 1, 1);
+           // transform.localScale = new Vector3 (-1, 1, 1);
         }
         if (isRight == false) 
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
-            transform.localScale = new Vector3(1, 1, 1);
+           // transform.localScale = new Vector3(1, 1, 1);
         }
 
         counterT -= Time.deltaTime;
